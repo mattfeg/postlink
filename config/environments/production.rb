@@ -84,4 +84,6 @@ Rails.application.configure do
   #
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
+
+  Rails.application.secrets.secret_key_base = Rails.application.credentials.dig(:secret_key_base)
 end
