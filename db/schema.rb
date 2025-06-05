@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_03_205251) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_04_231445) do
   create_table "devise_api_tokens", force: :cascade do |t|
     t.string "resource_owner_type", null: false
     t.bigint "resource_owner_id", null: false
@@ -38,6 +38,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_03_205251) do
     t.datetime "updated_at", null: false
     t.string "store_id"
     t.integer "user_id"
+    t.string "store_host"
     t.index ["user_id"], name: "index_stores_on_user_id"
   end
 

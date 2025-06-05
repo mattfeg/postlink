@@ -416,6 +416,7 @@ DEPENDENCIES
   debug
   devise (~> 4.9)
   devise-api!
+  dotenv
   kamal
   oauth2 (~> 2.0)
   puma (>= 5.0)
