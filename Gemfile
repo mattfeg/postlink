@@ -65,3 +65,5 @@ group :development, :test do
 
   gem "dotenv", groups: [ :development, :test ]
 end
+
+gem "service_actor", "~> 4.0"

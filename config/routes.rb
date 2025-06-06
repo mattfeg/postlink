@@ -20,6 +20,5 @@ Rails.application.routes.draw do
   namespace :tray do
     get "callback", to: "auth#callback"
     get "callback/auth", to: "auth#auth_callback"
-    get "start", to: "auth#start"
   end
 end

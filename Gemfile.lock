@@ -344,6 +344,8 @@ GEM
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
+    service_actor (4.0.0)
+      zeitwerk (>= 1.0)
     shoulda-matchers (6.5.0)
       activesupport (>= 5.2.0)
     snaky_hash (2.0.3)
@@ -424,6 +426,7 @@ DEPENDENCIES
   rails (~> 8.0.2)
   rspec-rails (~> 8.0.0)
   rubocop-rails-omakase
+  service_actor (~> 4.0)
   shoulda-matchers (~> 6.0)
   solid_cable
   solid_cache
