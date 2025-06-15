@@ -62,4 +62,8 @@ group :development, :test do
 
   # Simple one-liner tests for common Rails functionality
   gem "shoulda-matchers", "~> 6.0"
+
+  gem "dotenv", groups: [ :development, :test ]
 end
+
+gem "service_actor", "~> 4.0"
